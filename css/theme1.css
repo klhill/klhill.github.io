@@ -8,3 +8,6 @@
   display: inline-block;
   float: none;
 }
+.bg-primary h2 small {
+  color: #fff;
+}
