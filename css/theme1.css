@@ -77,8 +77,8 @@
 }
 /* Main */
 section {
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
@@ -127,10 +127,9 @@ p.lead {
   border: 2px solid rgb(255, 255, 255);
 }
 .btn-default:hover {
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.25);
-  border-color: rgba(255, 255, 255, 0.1);
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  color: rgb(255, 255, 255);
+  background-color: rgb(105, 182, 177);
+  border: 2px solid rgb(116, 188, 183);
 }
 .btn-primary {
     color: #88c6c2;
@@ -143,9 +142,10 @@ p.lead {
   border: 2px solid rgb(255, 255, 255);
 }
 .bg-primary .btn-primary:hover, .bg-primary .btn-default:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(105, 182, 177);
-  border: 2px solid rgb(116, 188, 183);
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Backgrounds */
