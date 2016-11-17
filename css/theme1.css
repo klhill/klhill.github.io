@@ -75,3 +75,19 @@
 .bg-primary {
   background-color: #88C6C2;
 }
+
+
+/* Buttons */
+.btn {
+  border-radius: 20px;
+}
+.btn-default {
+  border-color: #fff;
+}
+.btn:hover {
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+}
+/* Backgrounds */
