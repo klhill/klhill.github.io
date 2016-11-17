@@ -75,7 +75,11 @@
 .bg-primary {
   background-color: #88C6C2;
 }
-
+/* Main */
+section {
+  padding-left: 75px;
+  padding-right: 75px;
+}
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -145,3 +149,9 @@ p.lead {
 }
 
 /* Backgrounds */
+
+/* icon sections */
+.icon-row img {
+    max-height: 35px;
+    margin: 30px auto;
+  }
