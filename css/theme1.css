@@ -100,6 +100,9 @@ body, p {
 p.lead {
   font-size: 22px;
 }
+.caps {
+  letter-spacing: .05em;
+}
 
 /* Buttons */
 .btn {
@@ -120,12 +123,26 @@ p.lead {
     border-color: #88c6c2;
 }
 .bg-primary .btn-primary {
-  color: #ffffff;
-  background-color: rgba(255,255,255,0);
-  border-color: #fff;
-  border: 2px solid #fff;
+  color: rgb(255, 255, 255);
+  background-color: rgba(105, 182, 177, 0);
+  border: 2px solid rgb(255, 255, 255);
 }
 .bg-primary .btn-primary:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(105, 182, 177);
+  border: 2px solid rgb(116, 188, 183);
 
+}
+.bg-primary .btn-default {
+  border-color: #fff;
+  color: rgb(57, 124, 120);
+  background-color: #fff;
+  border: 2px solid rgb(255, 255, 255);
+}
+.bg-primary .btn-default:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
 }
 /* Backgrounds */
