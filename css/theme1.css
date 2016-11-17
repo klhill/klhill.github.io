@@ -76,10 +76,7 @@
   background-color: #88C6C2;
 }
 /* Main */
-section {
-  padding-left: 40px;
-  padding-right: 40px;
-}
+
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -110,7 +107,9 @@ p.lead {
 
 /* Buttons */
 .btn {
-  border-radius: 20px;
+  border-radius: 30px;
+  padding: 10px 35px;
+
 }
 .btn-default {
   border-color: #fff;
