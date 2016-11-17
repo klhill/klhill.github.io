@@ -163,7 +163,10 @@ p.lead {
     max-height: 35px;
     margin: 30px auto;
   }
-
+/* styling */
+.hr-lightgray {
+  border: 4px solid #F3F3F3;
+}
 /* animations */
 .hover-float:hover {
   position: relative;
@@ -173,4 +176,17 @@ p.lead {
   transition: 0.2s;
   box-shadow: -2px 13px 30px rgba(0,0,0,0.03);
   border-radius: 6px;
+}
+
+/* media objects */
+.media-left .media-object {
+  color: #dedede;
+  font-weight: bold;
+}
+.media-body .media-heading {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-top: 2px;
+  font-size: 120%;
 }
