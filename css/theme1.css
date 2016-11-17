@@ -77,9 +77,18 @@
 }
 /* Main */
 
+/* Helpers */
+.col-center {
+  margin: 0 auto;
+  float: none;
+}
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Sans Pro', sans-serif;
+  color: #8B8B8B;
+}
+.bg-primary h1, h2, h3, h4, h5, h6 {
+  color: #fff;
 }
 h1 {
   font-weight: bold;
