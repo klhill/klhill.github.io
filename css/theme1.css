@@ -163,3 +163,14 @@ p.lead {
     max-height: 35px;
     margin: 30px auto;
   }
+
+/* animations */
+.hover-float {
+  position: relative;
+  top: -2px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  box-shadow: -2px 13px 30px rgba(0,0,0,0.03);
+  border-radius: 6px;
+}
