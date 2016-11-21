@@ -277,4 +277,13 @@ html[xmlns] .flexslider .slides {
 /* Edits for theme */
 .flexslider {
   background: none;
+  border: none;
+}
+.flex-direction-nav a:before {
+    content: ' ';
+}
+.flexslider:hover .flex-direction-nav .flex-prev {
+    left: -65px;
+    color: #fff;
+    font-size: 1.5em;
 }
