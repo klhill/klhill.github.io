@@ -273,3 +273,8 @@ html[xmlns] .flexslider .slides {
     right: 10px;
   }
 }
+
+/* Edits for theme */
+.flexslider {
+  background: none;
+}

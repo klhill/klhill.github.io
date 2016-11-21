@@ -159,6 +159,11 @@ p.lead {
   border-color: rgba(255, 255, 255, 0.1);
   border: 2px solid rgba(255, 255, 255, 0.1);
 }
+.btn-default-teal {
+  background-color: #88c6c2;
+  color: #fff;
+  border-color: #88c6c2;
+}
 
 /* Backgrounds */
 .bg-secondary {
@@ -191,10 +196,13 @@ p.lead {
   color: #dedede;
   font-weight: bold;
 }
+.media-body {
+  font-size: .8em;
+}
 .media-body .media-heading {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.02em;
   margin-top: 2px;
-  font-size: 120%;
+  font-size: 1.3em;
 }
