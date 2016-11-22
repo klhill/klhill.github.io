@@ -337,11 +337,26 @@ a.flex-prev, a.flex-next {
 }
 
 @media screen and (max-width: 860px) {
+.flex-direction-nav .flex-prev {
+  left: -50px;
+}
+.flex-direction-nav .flex-next {
+  right: -50px;
+}
   .flexslider:hover .flex-direction-nav .flex-next {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: rgba(255,255,255,0);
     text-shadow: none;
-    right: -50px;
+    right: -55px;
+  }
+  .flexslider:hover .flex-direction-nav .flex-prev {
+    left: -55px;
+    color: rgba(255,255,255,0);
+    text-shadow: none;
+    font-size: 1.2em;
+  }
+  .flexslider h2 {
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -349,7 +364,7 @@ a.flex-prev, a.flex-next {
       left: -35px;
   }
   .flex-direction-nav .flex-next {
-    left: -35px;
+    right: -35px;
   }
   .flexslider:hover .flex-direction-nav .flex-prev {
     font-size: 1em;
