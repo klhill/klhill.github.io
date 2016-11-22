@@ -281,7 +281,26 @@ html[xmlns] .flexslider .slides {
 }
 .flex-direction-nav a:before {
     content: ' ';
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f060";
+    color: #fff;
 }
+.flex-direction-nav a.flex-next:before {
+    content: ' ';
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+    content: "\f061";
+  }
 .flexslider:hover .flex-direction-nav .flex-prev {
     left: -65px;
     color: #fff;
