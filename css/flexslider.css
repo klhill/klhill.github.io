@@ -303,6 +303,13 @@ html[xmlns] .flexslider .slides {
   }
   .flexslider:hover .flex-direction-nav .flex-prev {
       left: -65px;
-      color: #fff;
+      color: rgba(255,255,255,0);
+      text-shadow: none;
       font-size: 1.5em;
+  }
+
+  .flexslider:hover .flex-direction-nav .flex-next {
+    font-size: 1.5em;
+    color: rgba(255,255,255,0);
+    text-shadow: none;
   }
