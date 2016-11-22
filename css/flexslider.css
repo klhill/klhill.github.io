@@ -375,3 +375,8 @@ a.flex-prev, a.flex-next {
     font-size: 1em;
   }
 }
+
+/*carousel*/
+.selected img {
+	opacity:0.5;
+}
