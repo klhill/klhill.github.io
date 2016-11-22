@@ -313,3 +313,10 @@ html[xmlns] .flexslider .slides {
     color: rgba(255,255,255,0);
     text-shadow: none;
   }
+  .flex-control-paging li a {
+    box-shadow: inset 0 0 3px rgba(255,255,255,.3);
+    background: rgba(255,255,255,.5);
+}
+.flex-control-paging li a.flex-active {
+    background: rgba(255, 255, 255, 0.9);
+  }
