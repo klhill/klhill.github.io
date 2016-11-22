@@ -359,7 +359,7 @@ a.flex-prev, a.flex-next {
     font-size: 30px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 667px) {
   .flex-direction-nav .flex-prev {
       left: -35px;
   }
