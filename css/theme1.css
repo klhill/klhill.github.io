@@ -162,7 +162,7 @@ p.lead {
 .btn-default-teal {
   background-color: #88c6c2;
   color: #fff;
-  border-color: #88c6c2;
+  border: 2px solid #88c6c2;
 }
 
 /* Backgrounds */
