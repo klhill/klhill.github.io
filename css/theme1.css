@@ -443,35 +443,14 @@ input, textarea {
     font-style: normal;
   }
   ::-webkit-input-placeholder {
-   font-size: 14px;
-   color: #d0cdfa;
-   text-transform: uppercase;
-   text-transform: uppercase;
-   text-align: center;
-   font-weight: bold;
-   font-style: normal;
+    font-style: normal;
   }
   :-moz-placeholder { /* older Firefox*/
-   font-size:14px;
-   color: #d0cdfa;
-   text-transform: uppercase;
-   text-align: center;
-   font-weight: bold;
-   font-style: normal;
+    font-style: normal;
   }
   ::-moz-placeholder { /* Firefox 19+ */
-   font-size: 14px;
-   color: #d0cdfa;
-   text-transform: uppercase;
-   text-align: center;
-   font-weight: bold;
-   font-style: normal;
+    font-style: normal;
   }
   :-ms-input-placeholder {
-   font-size: 14px;
-   color: #d0cdfa;
-   text-transform: uppercase;
-   text-align: center;
-   font-weight: bold;
-   font-style: normal;
+    font-style: normal;
   }
