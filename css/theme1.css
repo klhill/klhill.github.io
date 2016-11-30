@@ -406,3 +406,25 @@ input.placeholder-text, textarea.placeholder-text  {
     color:#CCC;
     font-style:italic;
 }
+
+/* contact form */
+.contact-form button {
+    display: block;
+}
+.contact-form input {
+    display: block;
+    margin-bottom: 10px;
+}
+form input, form textarea {
+    margin-bottom: 0.5em;
+}
+input, textarea {
+    font-size: 0.8em;
+    font-family: 'proxima-nova-soft', sans-serif;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 0.9em;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    font-style: normal;
+  }
