@@ -178,10 +178,11 @@ p.lead {
     -o-transition: left 0.2s ease-in-out;
     transition: left 0.2s ease-in-out;
     position: relative;
-    margin-left: 5px;
+    margin-left: 10px;
+    left: 2px;
 }
 .btn-animated.btn-lg:hover i {
-    left: 4px;
+    left: 5px;
     -webkit-transition: left 0.2s ease-in-out;
     -o-transition: left 0.2s ease-in-out;
     transition: left 0.2s ease-in-out;
@@ -440,4 +441,37 @@ input, textarea {
     transition: all 0.3s ease-in-out;
     width: 100%;
     font-style: normal;
+  }
+  ::-webkit-input-placeholder {
+   font-size: 14px;
+   color: #d0cdfa;
+   text-transform: uppercase;
+   text-transform: uppercase;
+   text-align: center;
+   font-weight: bold;
+   font-style: normal;
+  }
+  :-moz-placeholder { /* older Firefox*/
+   font-size:14px;
+   color: #d0cdfa;
+   text-transform: uppercase;
+   text-align: center;
+   font-weight: bold;
+   font-style: normal;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+   font-size: 14px;
+   color: #d0cdfa;
+   text-transform: uppercase;
+   text-align: center;
+   font-weight: bold;
+   font-style: normal;
+  }
+  :-ms-input-placeholder {
+   font-size: 14px;
+   color: #d0cdfa;
+   text-transform: uppercase;
+   text-align: center;
+   font-weight: bold;
+   font-style: normal;
   }
