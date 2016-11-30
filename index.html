@@ -314,7 +314,7 @@
                 <input type="text" name="_gotcha" style="display:none" />
                 <!--<input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />-->
                 <input type="hidden" name="_subject" value="Kelly-Hill.com contact form submission" />
-                <textarea name="message" placeholder="Your message" required="true"></textarea>
+                <textarea name="message" placeholder="Your message" required="true" minlength="10"></textarea>
                 <button class="btn btn-default btn-default-teal btn-lg btn-animated right" type="submit">Send<i class="fa fa-send"></i></button>
               </form>
             </div>
@@ -375,16 +375,14 @@
     var contactform =  document.getElementById('contactform');
     contactform.setAttribute('action', '//formspree.io/' + 'kelly.lisabeth.hill' + '@' + 'gmail' + '.' + 'com');
 
-        $(document).ready(function(){
-        $("#contactform").validate({
-      rules: {
-        field: {
-          required: true,
-          minlength: 10
-        }
-      }
-    });
-      });
+    $(document).ready(function(){
+      $('form textarea[minlength]').on('keyup', function(){
+        e_len = $(this).val().trim().length
+        e_min_len = Number($(this).attr('minlength'))
+        message = e_min_len <= e_len ? '' : e_min_len + ' characters minimum'
+        this.setCustomValidity(message)
+      })
+    })
     </script>
 
   </body>
