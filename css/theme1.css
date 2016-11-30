@@ -173,6 +173,19 @@ p.lead {
   color: #fff;
   border: 2px solid #88c6c2;
 }
+.btn-animated i {
+    -webkit-transition: right 0.2s ease-in-out;
+    -o-transition: right 0.2s ease-in-out;
+    transition: right 0.2s ease-in-out;
+    position: relative;
+    padding-left: 0px;
+}
+.btn-animated.btn-lg:hover i {
+    left: 4px;
+    -webkit-transition: right 0.2s ease-in-out;
+    -o-transition: right 0.2s ease-in-out;
+    transition: right 0.2s ease-in-out;
+}
 
 /* Backgrounds */
 .bg-secondary {
