@@ -375,16 +375,16 @@
     var contactform =  document.getElementById('contactform');
     contactform.setAttribute('action', '//formspree.io/' + 'kelly.lisabeth.hill' + '@' + 'gmail' + '.' + 'com');
 
-    $(document).ready(function(){
-    $("#contactform").validate({
-  rules: {
-    field: {
-      required: true,
-      minlength: 10
-    }
-  }
-});
-  });
+        $(document).ready(function(){
+        $("#contactform").validate({
+      rules: {
+        field: {
+          required: true,
+          minlength: 10
+        }
+      }
+    });
+      });
     </script>
 
   </body>
